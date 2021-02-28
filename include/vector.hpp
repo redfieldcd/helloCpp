@@ -4,13 +4,9 @@
 namespace google {
 namespace youtube {
 
-#include <iostream>
-
 class Vector {
  public:
-  void foo() {
-    std::cout << "hello world!" << a <<  std::endl;
-  }
+  void foo();
  private:
   int a = 2;
 };
