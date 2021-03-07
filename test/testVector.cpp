@@ -1,6 +1,9 @@
 #include <iostream>
 #include "vector.hpp"
+
+int func_a(int, int);
 //using namespace google::youtube;
+
 #define m(x) #x
 #define n(a,b) a##b
 
@@ -13,5 +16,6 @@ int main(int argc, char** argv)
  
   google::youtube::Vector vector;
   vector.foo();
+  func_a(1, 2);
   return 0; 
 } 
